@@ -3,10 +3,12 @@ const swaggerAutogen = require('swagger-autogen')();
 const doc = {
   info: {
     title: 'Library Management API',
-    description: 'API for managing books and authors with OAuth authentication'
+    description: 'API for managing books and authors with OAuth authentication',
+    version: '1.0.0'
   },
-     host: 'cse341-l0tm.onrender.com',
- schemes: ['https'],
+  host: 'library-api-nzj4.onrender.com', 
+  basePath: '/',
+  schemes: ['https'],
   securityDefinitions: {
     github: {
       type: 'oauth2',
@@ -20,4 +22,3 @@ const outputFile = './swagger.json';
 const endpointsFiles = ['./server.js'];
 
 swaggerAutogen(outputFile, endpointsFiles, doc);
- 

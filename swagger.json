@@ -5,7 +5,7 @@
     "description": "API for managing books and authors with OAuth authentication",
     "version": "1.0.0"
   },
-  "host": "cse341-l0tm.onrender.com",
+  "host": "library-api-nzj4.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
