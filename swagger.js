@@ -6,7 +6,7 @@ const doc = {
     description: 'API for managing books and authors with OAuth authentication'
   },
      host: 'cse341-l0tm.onrender.com',
-  schemes: ['http'],
+ schemes: ['https'],
   securityDefinitions: {
     github: {
       type: 'oauth2',
